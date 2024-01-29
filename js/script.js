@@ -21,7 +21,7 @@ client.getEntries().then(function (entries) {
     //   if (entry.fields.name) {
         console.log("entry name: " + entry.fields.name);
         console.log("entry link: " + entry.fields.link);
-        if (entry.fields.mainImage.fields.file.url){
+        if (entry.fields.mainImage){
             console.log("entry image url: " + entry.fields.mainImage.fields.file.url);
         }
     //   }
